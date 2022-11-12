@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="公众号：UnseeR.ico" type="image/css" />
+
+    <style type="text/css">
+      @import url("chap.css");
+    </style>
+
+    <title>chap4</title>
+  </head>
+  <body
+    alink="#0000ff"
+    vlink="#000000"
+    link="#000000"
+    leftmargin="10%"
+    rightmargin="10%"
+  >
+    <!--目录-->
+    <div align="center">
+      <hr class="hr_chap" />
+
+      <a name="4">
+        <a style="text-decoration: none;" href="#第4章 列表">
+          <h2>
+            第4章 列表
+          </h2>
+        </a>
+      </a>
+
+      <a name="4.1">
+        <a style="text-decoration: none;" href="#4.1 列表概述">
+          <h3>
+            4.1 列表概述 -----------------------------------------------
+          </h3>
+        </a>
+      </a>
+
+      <a name="4.2">
+        <a style="text-decoration: none;" href="#4.2 无序列表">
+          <h3>
+            4.2 无序列表 -----------------------------------------------
+          </h3>
+        </a>
+      </a>
+
+      <a name="4.3">
+        <a style="text-decoration: none;" href="#4.3 有序列表">
+          <h3>
+            4.3 有序列表 -----------------------------------------------
+          </h3>
+        </a>
+      </a>
+
+      <a name="4.4">
+        <a style="text-decoration: none;" href="#4.4 列表嵌套">
+          <h3>
+            4.4 列表嵌套 -----------------------------------------------
+          </h3>
+        </a>
+      </a>
+
+      <a name="4.5">
+        <a style="text-decoration: none;" href="#4.5 定义列表">
+          <h3>
+            4.5 定义列表 -----------------------------------------------
+          </h3>
+        </a>
+      </a>
+
+      <hr class="hr_chap" />
+    </div>
+
+    <!--第4章 列表-->
+    <h2 class="h2_chap">
+      <a name="第4章 列表">
+        <a style="text-decoration: none;" href="#4">
+          <font class="font_schap">
+            第4章 列表
+          </font>
+        </a>
+      </a>
+    </h2>
+
+    <!--4.1 列表概述-->
+    <h3 class="h3_impo">
+      <a name="4.1 列表概述">
+        <a style="text-decoration: none;" href="#4.1">
+          <font class="font_schap">
+            4.1 列表概述
+          </font>
+        </a>
+      </a>
+    </h3>
+    <ul>
+      <li>
+        <font>
+          HTML中列表一共有<font class="impo"> 5</font>
+          种，分别是<b>无序列表</b>、<b>有序列表</b>、<b>定义列表</b>、<b>菜单列表</b>和<b>目录列表</b>。常用的列表有无序列表、有序列表、定义列表等3种。
+          <br /><img src="4.1.png" alt="公众号：UnseeR" />
+        </font>
+      </li>
+    </ul>
+
+    <!--4.2 无序列表-->
+    <h3 class="h3_impo">
+      <a name="4.2 无序列表">
+        <a style="text-decoration: none;" href="#4.2">
+          <font class="font_schap">
+            4.2 无序列表
+          </font>
+        </a>
+      </a>
+    </h3>
+    <ul>
+      <li>
+        <font>
+          <abbr title="双标记，（Unordered List）"> ul 标记 </abbr>的<font
+            class="impo"
+          >
+            type </font
+          >属性有<font class="seco"> 3 </font
+          >个值，成对的无序列表之间插入若干个列表项<abbr
+            title="双标记，（List Items）"
+          >
+            li 标记 </abbr
+          >用于定义一个列表项。
+        </font>
+      </li>
+      <li>
+        <font>
+          基本语法
+          <blockquote>
+            &lt;ul<font class="impo"> type</font>=“
+            <font class="seco"> disc </font>|<font class="seco"> circle </font
+            >|<font class="seco"> square</font>"><br />
+            <div class="inde_code">
+              &lt;li <font class="impo">type</font>="">项目名称&lt;/li>
+            </div>
+            <div class="inde_code">…</div>
+            &lt;/ul><br />
+            符号： <abbr title="实心圆形">disc - ●</abbr>；
+            <abbr title="空心圆形">circle - ○</abbr>；<abbr title="实心正方形"
+              >square -■</abbr
+            >
+          </blockquote>
+        </font>
+      </li>
+    </ul>
+
+    <!--4.3 有序列表-->
+    <h3 class="h3_impo">
+      <a name="4.3 有序列表">
+        <a style="text-decoration: none;" href="#4.3">
+          <font class="font_schap">
+            4.3 有序列表
+          </font>
+        </a>
+      </a>
+    </h3>
+    <ul>
+      <li>
+        <font>
+          有序列表<abbr title="双标记，（Ordered List）"> ol 标记</abbr>的<font
+            class="impo"
+          >
+            type </font
+          >属性有<font class="seco"> 5 </font>个值。
+        </font>
+      </li>
+      <li>
+        <font>
+          基本语法
+          <blockquote>
+            &lt;ol <font class="impo">type</font>= "
+            <font class="seco">1</font> | <font class="seco">A</font> |
+            <font class="seco">a</font> | <font class="seco">I</font> |
+            <font class="seco">i</font> " <font class="impo">start</font>= " 2">
+            <div class="inde_code">
+              &lt;li <font class="impo">type</font>=""
+              <font class="impo">value </font>="n">项目名称&lt;/li>
+            </div>
+            <div class="inde_code">…</div>
+            &lt;/ol>
+          </blockquote>
+        </font>
+      </li>
+      <li>
+        <font>
+          <ol type="1">
+            <li>
+              <font>
+                列表<font class="impo"> ol</font> 标记的属性
+                <ul>
+                  <li type="disc">
+                    <font>
+                      <b>type</b
+                      >：列表项前面的编号，编号是有序的，有五种不同类型。
+                    </font>
+                  </li>
+                  <li type="disc">
+                    <font>
+                      <b>start</b>：定义有序列表起始编号，默认值为1。
+                    </font>
+                  </li>
+                </ul>
+              </font>
+            </li>
+            <li>
+              <font> 列表项<font class="impo"> li</font> 标记的属性 </font>
+              <ul>
+                <li type="disc">
+                  <font>
+                    <b>type</b
+                    >：只影响当前列表项前面编号类型，后续列表项前面编号类型依旧遵循0l标记的type属性的取值。
+                  </font>
+                </li>
+                <li type="disc">
+                  <font>
+                    <b>value</b
+                    >：改变当前列表项前编号的值，并影响其后所有列表项编号的值。
+                  </font>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <font>
+                有序列表0l标记的属性、值及说明
+              </font>
+            </li>
+            <div>
+              <img src="4.3.png" alt="公众号：UnseeR" />
+            </div>
+          </ol>
+        </font>
+      </li>
+    </ul>
+
+    <!--4.4 列表嵌套-->
+    <h3 class="h3_impo">
+      <a name="4.4 列表嵌套">
+        <a style="text-decoration: none;" href="#4.4">
+          <font class="font_schap">
+            4.4 列表嵌套
+          </font>
+        </a>
+      </a>
+    </h3>
+    <ul>
+      <li>
+        <font>
+          基本语法<br />
+          <blockquote>
+            <font class="impo">&lt;ul></font>
+            <div class="inde_code">
+              <font class="impo">&lt;li></font>项目名称
+            </div>
+            <div class="inde_code">
+              <font class="seco">&nbsp;&nbsp;&nbsp;&nbsp;&lt;ol></font>
+            </div>
+            <div class="inde_code">
+              <font class="seco"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li></font
+              >项目名称<font class="seco"> &lt;/li></font>
+            </div>
+            <div class="inde_code">&nbsp;&nbsp;&nbsp;&nbsp;…</div>
+            <div class="inde_code">
+              <font class="seco">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ol></font>
+            </div>
+            <div class="inde_code">
+              <font class="impo">&lt;/li></font>
+            </div>
+            <div class="inde_code">
+              <font class="impo">…</font>
+            </div>
+            <font class="impo">&lt;/ul></font>
+          </blockquote>
+        </font>
+      </li>
+    </ul>
+
+    <!--4.5 定义列表-->
+    <h3 class="h3_impo">
+      <a name="4.5 定义列表">
+        <a style="text-decoration: none;" href="#4.5">
+          <font class="font_schap">
+            4.5 定义列表
+          </font>
+        </a>
+      </a>
+    </h3>
+    <ul>
+      <li>
+        <font>
+          定义列表<abbr title="双标记，（Definition List）"> dl 标记 </abbr
+          >由<abbr title="双标记，（definition term）"> dt 标记 </abbr>和<abbr
+            title="双标记，（definition description）"
+          >
+            dd 标记 </abbr
+          >组成。定义列表中每一个元素的<font class="impo">标题 </font>
+          <font class="seco">使用 &lt;dt> … &lt;/dt> 标记定义</font
+          >；后面跟随<font class="seco">
+            &lt;dd> ... &lt;/dd> 标记，用于描述</font
+          >
+          <font class="impo">列表中元素的内容</font>。
+        </font>
+      </li>
+      <li>
+        <font>
+          基本语法
+          <blockquote>
+            <font class="impo">&lt;dl></font>
+            <div class="inde_code">
+              <font class="impo">&lt;dt></font>& 项目1
+              <font class="impo">&lt;/dt></font>
+            </div>
+            <div class="inde_code">
+              &nbsp;&nbsp;&nbsp;&nbsp;<font class="impo">&lt;dd></font> 说明
+              <font class="impo">&lt;dd></font>
+            </div>
+            <div class="inde_code">…</div>
+            <font class="impo">&lt;/dl></font>
+          </blockquote>
+        </font>
+      </li>
+    </ul>
+  </body>
+</html>

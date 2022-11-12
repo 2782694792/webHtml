@@ -1,0 +1,129 @@
+/*分隔式*/
+.p_left {
+    float: left;
+    width: 80%;
+}
+
+.p_right {
+    float: right;
+    width: 20%;
+}
+
+/*全局*/
+* {
+    font-family: Frutiger;
+    color: black;
+    letter-spacing: normal;
+    /*字母间距：默认*/
+}
+
+/*内容结构*/
+.h2_chap {
+    background: #60afff;
+    padding: 14px;
+    text-align: center;
+}
+
+.h3_impo {
+    background: darkgrey;
+    padding: 8px;
+    text-indent: 13px;
+}
+
+.h3_seco {
+    background: lightgray;
+    padding: 7px;
+    text-indent: 13px;
+}
+
+.hr_chap {
+    height: 3px;
+    background: #000000;
+}
+
+/*首行代码文本*/
+.inde_code {
+    white-space: nowrap;
+    text-indent: -1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+/*次行代码文本*/
+.inde_code2 {
+    white-space: nowrap;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+/*嵌套标签*/
+a abbr {
+    text-decoration: none;
+    color: black;
+}
+
+/*aside 用于文本内容   blockquote 用于代码语法说明*/
+aside blink,
+blockquote blink {
+    color: red;
+    font-weight: bolder;
+    font-family: Bodoni;
+}
+
+aside b,
+blockquote b {
+    color: #0071e1;
+    font-weight: bolder;
+    font-family: Bodoni;
+}
+
+li font {
+    color: #000000;
+    font-weight: normal;
+}
+
+div h3 {
+    white-space: nowrap;
+    /*强制不换行*/
+    line-height: 1.4em;
+    text-indent: 7.4%;
+}
+
+div h4 {
+    white-space: nowrap;
+    text-indent: 14.5%;
+    line-height: 0.3em;
+}
+
+/*单标签*/
+a:hover {
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+}
+
+abbr {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+li {
+    line-height: 2em;
+    color: #0071e1;
+    font-weight: bolder;
+}
+
+img {
+    border: black solid 2px;
+}
+
+blockquote {
+    line-height: 1.4em;
+    color: black;
+    font-weight: bold;
+}

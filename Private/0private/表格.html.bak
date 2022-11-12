@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="UnseeR">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="icon" href="1.ico" type="image/x-image">
+  <title>table pratice</title>
+<style>
+	[v-cloak]{display:none}
+/*-- 表格 --*/
+	.Tab{width:1350px;}
+	.tab1{width:680px;height:260px}
+	.tab2{width:380px;height:0px;}
+
+/*-- 标题 --*/
+	.cap1{border:3px solid #808080;height:140px;}
+	.cap2{height:120px;}
+	.cap3{border:3px solid #808080;height:100px;}
+	.h2{background-color:#00008a;padding:8px;
+	      font-size:80px;height:85px;margin-top:20px;}
+	h4{padding:1px;margin-top:18px;}
+
+/*-- 单元格 --*/
+	.p1{border:2px solid #3a3a3a;}
+	td{border:3px solid #808080;background-color:#f2f2f2}
+
+/*-- 正文 --*/
+    .photo{float:left;width:70%;}
+	.ptext{float:right;width:30%;}
+
+/*-- 音频 --*/
+    audio{height:16px;float:left;volume:0.5;}
+</style>
+
+<style type="text/css">
+ /*-- 链接 --*/
+     .aul{color:#0000ff;}
+     a:link,a:visited{text-decoration:underline;}
+	 a:hover{text-decoration:line-through;}
+</style>
+
+ </head>
+ <body align="center" bgcolor="#e2e2e2"
+             link="#000000"alink="#a042ff"vlink="#3300cc">
+    <table class="Tab">
+	    <caption class="cap1"><font face="华文彩云"><h1 class="h2">网&nbsp;页&nbsp;乱&nbsp;坛</h1></font></caption>
+		<tr>
+		   <td width="280px"height="350px"align="left"><div class="p1">
+		      <p>
+		      	 &Lt;礼记 &bull; 大学&Gt;名句<br/>
+		      	 <ol>
+		      	 	<li><em>&nbsp;修身</em></li>
+		      	 	<li><strong>&nbsp;齐家</strong></li>
+		      	 	<li><u>&nbsp;治国</u></li>
+		      	 	<li><del>&nbsp;平天下</del></li>
+		      	 </ol>
+		      </p></div>
+		   </td>
+
+		   <td width="380px" >
+		   	   <h3 align="center">诗词欣赏</h3><br/>
+			   <img class="photo" width="270px"height="250px"src="C:\Users\Administrator\Desktop\online learning\Web front-end\Private\0private\SEER.jpg"alt="静夜思">
+			   <font class="ptext"><br/><br/>
+				<p align="center">静夜思<br/>&nbsp;
+				床前明月光，<br/>&nbsp;
+				疑是地上霜。<br/>&nbsp;
+				举头望明月，<br/>&nbsp;
+				低头思故乡。</p>
+			   </font></font>
+		   </td>
+
+		   <td>
+		     <table class="tab1">
+				<caption class="cap2">
+				<font align="center"><h3>纪晓岚家风家训</h3></font>
+				<hr color="#808080"size="3px"><font align="justify">
+				<ol>
+					<li>
+						其道维何?约言之有四戒四宜:一戒晏起,二戒懒惰,三戒奢华,四戒骄傲。既守四戒,又须规以<br/>四宜:一宜勤读,二宜敬师,三宜爱众,四宜慎食。（《纪晓岚家书》）<br/><font color="blue">
+						释：</font>教育孩子应有哪些原则呢？简单地说有四戒四宜：一不准贪睡；二不准懒惰；三不准<br/>奢华浪费；四不准骄傲。既要遵守四戒，又要规劝四宜：一要勤奋用功，多读圣贤书；二<br/>要尊师重道，才能学有所成；三要博爱众人，心胸宽厚；三要节俭、规律饮食，不贪嘴。”
+					</li><br/>
+					<li>
+						贫莫断书香，贵莫贪贿赃。（纪晓岚临终遗训）<br/><font color="blue">
+						释：</font>即使家境贫困也不要让后代失学，不能放弃读书、放弃知识；即使富贵了也不能为所<br/>欲为、做损人利己之事，特别是不能贪污受贿，要保持自己高尚的人格。
+					</li><br/>
+					<li>
+						过如秋草芟难尽，学似春冰积不高。（阅微草堂堂联）<br/>
+						<font color="blue">释：</font>人身上的过错如同秋天繁茂的野草一样,很难完全割除掉,所以人要不停地改正自己的<br/>错；知识和学问需长期积累,冰冻三尺非一日之寒,否则就达不到高深程度,所以做学问一定<br/>要持之以恒。
+					</li>
+				</ol></font>
+				</caption>
+		     </table>
+		   </td>
+		</tr>
+
+		<tr>
+			<td align="left">
+				<div class="p1">
+				<p>中国古典四大名著
+					<ul class="aul">
+						<li>
+							<a href="http://www.shicimingju.com/book/xiyouji.html"alt="西游记">西游记</a>
+						</li>
+						<li>
+							<a href="http://www.shicimingju.com/book/shuihuzhuan.html"alt="水浒传">水浒传</a>
+						</li>
+						<li>
+							<a href="http://www.shicimingju.com/book/hongloumeng.html"alt="红楼梦">红楼梦</a>
+						</li>
+						<li>
+							<a href="http://www.shicimingju.com/book/sanguoyanyi.html"alt="三国演义">三国演义</a>
+						</li>
+					</ul>
+				  </p>
+				</div> 
+			</td>
+
+			<td height="250px">
+			 <table class="tab2">
+			   <caption class="cap3">
+				<font align="center"><h4>音乐欣赏</h4>
+				<hr size="3px"color="#808080"></font>
+				<audio volume=0.5 src="F:\Download place\李荣浩+-+戒烟.mp3" controls  loop >浏览器不支持</audio>
+			   </caption>
+			 </table>
+			</td>
+
+			<td></td>
+		</tr>
+    </table>
+ </body>
+</html>
+<!-- table:表格 caption:表标题
+         tr：行 td：单元格
+	            th：列标题                -->
